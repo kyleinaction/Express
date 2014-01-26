@@ -19,13 +19,13 @@ require_once dirname(__FILE__) . "/../../src/Express/BooleanGreaterThanOrEqualsO
 use Express;
 
 /**
- * Tests the BooleanOrOperator class
+ * Example Test Class
  * @package ExpressTest
  */
 class ExampleTest extends \PHPUnit_Framework_TestCase {
 
 	/**
-	 * Tests the BooleanOrOperator class
+	 * Basic Example
 	 */
 	public function testExample1() {
 		$trueLiteral 		= new Express\LiteralExpression(TRUE);
